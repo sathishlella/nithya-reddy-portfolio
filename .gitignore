@@ -1,9 +1,9 @@
+# gitignore
+.next/
+out/
+node_modules/
 .env
 .env.local
-node_modules/
-__pycache__/
-*.pyc
-venv/
-.venv/
-dist/
-.next/
+.env.*.local
+npm-debug.log*
+.DS_Store
